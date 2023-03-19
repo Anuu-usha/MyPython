@@ -1,0 +1,8 @@
+March 19-2023:
+IDE- Integrated Development Environment
+Integer/ Floor Division can be done by using // (thig gives us only integer or whole number)
+Normal division can be done by using / ( this gives us float values)
+We can get the remainder by using %
+Exponent or power is indictaed by **
+Strings if we define directly, it should be defined with in quotes.
+We can print both single and double quotes in a single go by ignoring the special meaning
