@@ -1,0 +1,50 @@
+March 19-2023:
+IDE- Integrated Development Environment
+Integer/ Floor Division can be done by using // (thig gives us only integer or whole number)
+Normal division can be done by using / ( this gives us float values)
+We can get the remainder by using %
+Exponent or power is indictaed by **
+Strings if we define directly, it should be defined with in quotes.
+We can print both single and double quotes in a single go by ignoring the special meaning.
+We can print RAWSTRING, which means no special characters will work, by using a 'r' before the string while printing.
+Variable is a container which holds a value.
+_ represents the output of previous operation.
+For ignoring the single quote, we must use \, raw value r is not working here.
+Lists are mutable.
+We can have lists of lists
+Extend/ Insert/ Append are different types of functions we can use with lists.
+List can be used for any type of data.
+Tuple is similar to List, but its immutable.
+Tuple will be used along with ().
+When the requirement is not to change the values in a particular list, in such case Tuple is useful.
+Tuples are fast while using iterations so that it improves the performance.
+Multiple types of data can be allowed in a single Tuple.
+Tuple does not support item assignment.
+Set is represented by {}
+Set will not allow duplicates, also if prints the order by using row hash. Hence data can be printed according to hash.
+Indexing is not supported in Sets as it does not follow order to print or store the values.
+Dictionary will be used with {}
+Here, we have to use the key and value pair.
+We have to use the key to fetch the value.
+Variables are case sensitive.
+Camel case: Each word except the first , starts with a capital letter: myVariableName='anu'
+Pascal case: Each word starts with a capital letter: MyVariableName='anu'
+Snake case: Each word is separated by an underscore character: my_variable_name.
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+For strings, + is used as a concatination operator 
+For numbers, + is used as a mathematical operator.
+Variables that are created outside of a function are known as global variables.
+Global variables can be used by everyone, both inside of functions and outside.
+If you use the global keyword, the variable belongs to the global scope
+Float can also be scientific numbers with an "e" to indicate the power of 10.
+Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers
+You can assign a multiline string to a variable by using three quotes(three single o three double quotes)
+To check if a certain phrase or character is present in a string, we can use the keyword 'in'/ not in. It returns the values- True or False.
+These can be used under a if condition also.
+The strip() method removes any whitespace from the beginning or the end.
+The replace() method replaces a string with another string.
+The split() method splits the string into substrings if it finds instances of the separator.
+we can combine strings and numbers by using the format() method
+The format() method takes unlimited number of arguments, and are placed into the respective placeholders.
+
+
