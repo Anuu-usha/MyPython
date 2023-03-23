@@ -35,7 +35,8 @@ For strings, + is used as a concatination operator
 For numbers, + is used as a mathematical operator.
 Variables that are created outside of a function are known as global variables.
 Global variables can be used by everyone, both inside of functions and outside.
-If you use the global keyword, the variable belongs to the global scope
+If you use the glPython also has many built-in functions that return a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type.
+obal keyword, the variable belongs to the global scope
 Float can also be scientific numbers with an "e" to indicate the power of 10.
 Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers
 You can assign a multiline string to a variable by using three quotes(three single o three double quotes)
@@ -46,5 +47,18 @@ The replace() method replaces a string with another string.
 The split() method splits the string into substrings if it finds instances of the separator.
 we can combine strings and numbers by using the format() method
 The format() method takes unlimited number of arguments, and are placed into the respective placeholders.
-
-
+Under Bool, Almost any value is evaluated to True if it has some sort of content.
+Any string is True, except empty strings.
+Any number is True, except 0.
+Any list, tuple, set, and dictionary are True, except empty ones.
+In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
+Python also has many built-in functions that return a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type.
+There is a difference between Identical and assignment operators. x is not y is different from x!=y. First one matches the variable also and second one matches the value it holds.
+Python identity operators are 'is, is not' and membership operators are 'in, not in'
+List items are ordered, changeable, idexed, and allow duplicate values.
+From Python's perspective, lists are defined as objects with the data type 'list'
+It is also possible to use the list() constructor when creating a new list.
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
