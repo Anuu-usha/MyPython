@@ -64,5 +64,6 @@ Set is a collection which is unordered, unchangeable*, and unindexed. No duplica
 Dictionary is a collection which is ordered** and changeable. No duplicate members.
 The extend() method does not only need to add a list, it cane be added tuple,set,dictionary.
 Looping can be done by using For loop, while loop and list comprehension.
+The iterable can be any iterable object, like a list, tuple, set etc.
 
 
