@@ -65,5 +65,17 @@ Dictionary is a collection which is ordered** and changeable. No duplicate membe
 The extend() method does not only need to add a list, it cane be added tuple,set,dictionary.
 Looping can be done by using For loop, while loop and list comprehension.
 The iterable can be any iterable object, like a list, tuple, set etc.
+List objects have a sort() method that will sort the list alphanumerically, ascending, by default.
+To sort descending, use the keyword argument reverse = True.
+By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters.
+There are ways to make a copy, one way is to use the built-in List method copy().
+Another way to make a copy is to use the built-in method list().
+A tuple is a collection which is ordered and unchangeable.
+Tuples are written with round brackets.
+Tuple items are ordered, unchangeable, indexed and allow duplicate values.
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+To change a value in a Tuple, You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+The number of variables must match the number of values in the tuple, if not, you must use an asterisk to collect the remaining values as a list.
+If the asterisk is added to another variable name than the last, Python will assign values to the variable until the number of values left matches the number of variables left.
 
 
